@@ -122,8 +122,6 @@ function extractCardsPerSet(html, set) {
     });
   });
 
-  //console.log(cards);
-
   const filename = `${set}.json`;
 
   // Write data into a JSON file in the specified directory
